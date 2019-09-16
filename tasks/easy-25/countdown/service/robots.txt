@@ -1,0 +1,3 @@
+User-Agent: *
+
+Disallow: /static/flag_807d0fbcae7c4b20518d4d85664f6820aafdf936104122c5073e7744c46c4b87.txt
