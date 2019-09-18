@@ -9,7 +9,7 @@ captcha_al = string.ascii_letters + string.digits
 def inv(a, p):
     return int(gmpy2.invert(a, p))
 
-r = remote("127.0.0.1", 33021)
+r = remote("127.0.0.1", 33061)
 
 r.readuntil("sha512(X)[:5] ==")
 captcha = r.recvline().strip()

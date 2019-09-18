@@ -4,5 +4,5 @@ services:
   baby_rek:
     build: .
     ports:
-      - "33021:33021"
+      - "33061:31337"
     tty: true

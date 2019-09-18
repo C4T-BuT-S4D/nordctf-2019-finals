@@ -13,4 +13,4 @@ ADD flag.txt .
 
 RUN chmod +x main.py
 
-ENTRYPOINT ["socat", "TCP-LISTEN:33021,fork,reuseaddr", "EXEC:./main.py,pty"]
+ENTRYPOINT ["socat", "TCP-LISTEN:31337,fork,reuseaddr", "EXEC:./main.py,pty"]
