@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  baby_rek:
+    build: .
+    ports:
+      - "33021:33021"
+    tty: true
