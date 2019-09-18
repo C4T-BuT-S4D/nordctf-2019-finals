@@ -16,4 +16,4 @@ ADD task.py flag.txt ./
 RUN chmod 555 task.py && \
     chmod 444 flag.txt
 
-ENTRYPOINT ["socat", "TCP-LISTEN:31337,reuseaddr,fork", "EXEC:'timeout 5 ./task.py',su=task"]
+ENTRYPOINT ["socat", "TCP-LISTEN:31337,reuseaddr,fork", "EXEC:./task.py,su=task"]
