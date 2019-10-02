@@ -21,5 +21,5 @@
 
 ## Флаг
 
-> Флаг лежит в `source/flag.txt`.
-> `flag{r34lly_n1c3_crypt0r_15nt_1t}`
+Флаг лежит в `source/flag.txt`.
+`flag{r34lly_n1c3_crypt0r_15nt_1t}`
