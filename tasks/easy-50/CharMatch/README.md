@@ -11,6 +11,9 @@
 
 > `docker-compose up --build`
 
+## Примечание
+
+> Приложить вместе с заданием [task.zip]task.zip
 
 ## Описание
 
