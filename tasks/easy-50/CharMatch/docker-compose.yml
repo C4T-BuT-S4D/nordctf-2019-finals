@@ -1,0 +1,8 @@
+version: '2.3'
+
+services:
+  task:
+    build: src
+    restart: always
+    ports:
+      - 33053:34567
