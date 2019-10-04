@@ -1,7 +1,7 @@
 from scapy.all import *
 from scapy.layers.inet import IP, ICMP
 
-cap = rdpcap('../back_to_basics.pcapng.gz')
+cap = rdpcap('../task/back_to_basics.pcapng.gz')
 print('Done reading capture')
 
 print(cap)
