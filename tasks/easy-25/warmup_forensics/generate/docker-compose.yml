@@ -1,0 +1,8 @@
+version: '2.4'
+
+services:
+  warmup_forensics:
+    build: .
+    ports:
+      - "8080:8000"
+    restart: always
