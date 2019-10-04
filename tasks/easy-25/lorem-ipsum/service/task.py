@@ -4,7 +4,7 @@ import loremipsum
 
 
 def main(flag):
-    paragraphs = loremipsum.get_paragraphs(len(flag) + 1)
+    paragraphs = loremipsum.get_paragraphs(len(flag) + 1, True)
     print('\n\n'.join('%s\r%s' % pair for pair in zip(flag, paragraphs)))
 
 
