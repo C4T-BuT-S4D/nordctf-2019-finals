@@ -1,1 +1,1 @@
-flag{fastest_fastest_fastest}
+flag{fastest_fastest_fastest_but_n0t_ker}

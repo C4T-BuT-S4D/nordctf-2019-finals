@@ -55,7 +55,7 @@ for i in range(w):
 
 flag = ""
 
-for i in range(29):
+for i in range(41):
     pos = positions[get()]
     x, y = pos
     flag += chr(pix[x, y][0])
