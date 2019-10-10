@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  finite_rek:
+    build: .
+    ports:
+      - "33031:31337"
+    tty: true
