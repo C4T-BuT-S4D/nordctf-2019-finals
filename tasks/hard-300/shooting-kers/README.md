@@ -23,6 +23,8 @@ docker-compose up --build -d
 
 TBD
 
+[Пример эксплоита](exploit.py)
+
 
 ## Флаг
 
