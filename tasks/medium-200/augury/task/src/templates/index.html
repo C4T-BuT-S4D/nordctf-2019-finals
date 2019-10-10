@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container col-8 mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Augury!</h1>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p>We're collecting your data and giving it to anyone we want!</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}" role="button">Register!</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

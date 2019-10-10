@@ -19,3 +19,5 @@ obj/
 
 .gdb_history
 core
+
+*.sqlite3
