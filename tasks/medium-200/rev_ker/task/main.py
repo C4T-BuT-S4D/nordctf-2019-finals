@@ -24,7 +24,6 @@ print("Complete captcha to get access to the task")
 captcha_al = string.ascii_letters + string.digits
 captcha_text = ''.join(choices(captcha_al, k=4))
 captcha = sha512(captcha_text.encode()).hexdigest()
-print(captcha_text)
 print(f"sha512(X)[:5] == {captcha[:5]}")
 
 captcha_check = input().strip()
